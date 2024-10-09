@@ -45,7 +45,7 @@ body {
   background-color: #000; /* 设置线的颜色 */
   width: 506px;
   height: 0.25px;
-  margin: 43px 0; /* 上下各43px的间距 */
+  margin: 43px auto; /* 上下各43px的间距 */
 }
 
 .limited-size-image {
