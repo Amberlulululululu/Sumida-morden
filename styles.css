@@ -1,0 +1,82 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-section {
+  text-align: center;
+  background-color: #fff; /* white;背景 */
+  padding: 50px 0;
+}
+
+.hero-section h1 {
+  color: #fff;
+  font-size: 3em;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kozuka+Mincho+Pr6N:wght@900&display=swap");
+
+.custom-style1 {
+  color: #963323;
+  text-align: center; /* 设置文本居中 */
+  font-family: "Kozuka Mincho Pr6N", serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 3.8px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap");
+.custom-style2 {
+  color: #000;
+  text-align: center; /* 设置文本居中 */
+  font-family: "Sawarabi Mincho";
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.42px;
+}
+
+.custom-line {
+  border: none; /* 移除默认的边框 */
+  background-color: #000; /* 设置线的颜色 */
+  width: 506px;
+  height: 0.25px;
+  margin: 43px 0; /* 上下各43px的间距 */
+}
+
+.limited-size-image {
+  max-width: 100%; /* 图片的最大宽度不会超过容器的宽度 */
+  max-height: 500px; /* 图片的最大高度不超过500px */
+  height: auto; /* 保持图片的比例 */
+  width: auto; /* 保持图片的比例 */
+  display: block; /* 去除图片下方的多余间距 */
+  margin: 0 auto; /* 图片居中 */
+}
+
+.concept {
+  text-align: center;
+  padding: 20px;
+}
+
+.products {
+  display: flex;
+  flex-direction: column; /* 让子元素竖直排列 */
+  gap: 10px; /* 控制产品之间的间距，可以根据需要调整 */
+}
+
+.product {
+  display: flex;
+  flex-direction: column; /* 产品内的文字和图片竖直排列 */
+  /*align-items: center; /* 让内容居中对齐（可选） */
+}
+
+footer {
+  background-color: #002b55; /* 底部蓝色 */
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
